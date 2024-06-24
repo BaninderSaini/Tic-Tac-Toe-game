@@ -49,7 +49,7 @@ const handleClick = (box, x, y) => {
     if (checkWin(track)) {
       gameWon = true;
       let msg=document.querySelector("p");
-      if(playerTurn1?msg.innerText="Congratulations!!! Player 1 Won":msg.innerText="Congratulations!!! Player 2 Won");
+      if(playerTurn1?msg.innerText="Congratulations!!! Player 2 Won":msg.innerText="Congratulations!!! Player 1 Won");
     }
     
   } 
